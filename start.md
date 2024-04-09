@@ -21,8 +21,6 @@ wget https://raw.githubusercontent.com/0LNetworkCommunity/v7-hard-fork-ceremony/
 libra genesis build -o 0o-de-lally -n a-genesis -l -j $HOME/.libra/state_epoch_79_ver_33217173.795d.json --drop-list $HOME/.libra/drop_list.json
 ```
 
-If you would like to reproduce this list from the original migration file, with `--drop-file drop.json`
-
 # 11. Start node
 
 ```
