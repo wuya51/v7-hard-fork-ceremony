@@ -67,7 +67,7 @@ copy command verbatim, do not change the org name to your own.
 Your ~/.libra folder will be created now. And the github_token.txt file will be checked, and copied there.
 
 ```
-libra genesis register --org-github 0LNetworkCommunity--name-github v7-hard-fork-ceremony --token-github-file $HOME/github_token.txt
+libra genesis register --org-github sirouk --name-github v7-hard-fork-ceremony-rehearsal --token-github-file $HOME/github_token.txt
 ```
 
 Q: Do you need to register for genesis? 
