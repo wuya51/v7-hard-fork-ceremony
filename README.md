@@ -4,6 +4,17 @@ Note: to confirm correctness of the artifacts here, please [follow these instruc
 
 ##  Version 7 Hard Fork Upgrade
 
+# 0. Follow the sheet
+
+"The Sheet" is used for all validator ceremonies. Do not speak ill of it.
+
+Fill in the yellow cells in this form:
+
+https://docs.google.com/spreadsheets/d/10i9yhpJhqMReIQAGo6Vo1gmlgG3MS8myKzu_Rb0ex60/edit#gid=1713838824
+
+Then follow status here:
+https://docs.google.com/spreadsheets/d/10i9yhpJhqMReIQAGo6Vo1gmlgG3MS8myKzu_Rb0ex60/edit#gid=0
+
 # 1. Get github token
 
 Go to github.com
@@ -42,16 +53,8 @@ bash dev_setup.sh
 
 ```
 
-# 4. Wipe Libra home
 
-We want to make sure you have a clean slate (in case you've used this box before).
-
-
-```
-rm -rf ~/.libra
-```
-
-# 5. Build the source
+# 4. Build the source
 
 
 ```
@@ -59,6 +62,14 @@ cd ~/libra-framework
 cargo build --release -p libra
 cp target/release/libra ~/.cargo/bin
 which libra
+```
+# 5. Wipe Libra home
+
+We want to make sure you have a clean slate (in case you've used this box before).
+
+
+```
+rm -rf ~/.libra
 ```
 
 # 6. Register
