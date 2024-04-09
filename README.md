@@ -81,22 +81,12 @@ cd ~/libra-framework
 bash ./util/port_check.sh
 ```
 
-# 8. Wait
+# 8. Wait Until Genesis Participant List is Published
 
-Everyone needs to register, and the Genesis Coordinator needs to prepare some files after that.
+A Genesis Coordinator will check your nodes for the correct port configuration.
+If your configurations looks correct, your address will be added to the layout.toml
 
-Build Genesis
-```
-libra genesis build -o 0o-de-lally -n a-genesis -l -j ~/libra-framework/tools/genesis/tests/fixtures/sample_export_recovery.json --drop-list ~/libra-framework/tools/genesis/tests/fixtures/drop.json.full
-```
-
-If you would like to reproduce this list from the original migration file, with `--drop-file drop.json`
-
-# 9. Start node
-
-```
-libra node
-```
+Await further instructions.
 
 
 
